@@ -11,7 +11,7 @@ public class ForcaBruta {
                 // Imprime um aviso com a posição sempre que um valor é encontrado.
                 if (valor.equalsIgnoreCase(matriz[b][i])) {
                     System.out.println(
-                            "VALOR ENCONTRADO NA POSSICAO " +
+                            "VALOR ENCONTRADO NA POSIÇÂO " +
                                     (b + 1) + " X " + (i + 1) + "  " + matriz[b][i]
                     );
                     break;
